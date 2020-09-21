@@ -4,21 +4,17 @@
  * Основные стили
  **/
 
-html {
-	font-size: 16px;
-	color: $black;
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-	font-family: 'Arial', sans-serif;
-	overflow-wrap: break-word;
-	word-wrap: break-word;
-}
-
-.container {
-	@include min-max(320px, 100%, 0);
-}
-
-.wrap {
-	@include min-max(320px, 1140px, 15px);
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+	color: #777;
+	padding: 30px;
 }
